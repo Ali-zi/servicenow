@@ -18,7 +18,7 @@
         <element label="Meeting Attending Location" mandatory="true" max_length="32" name="u_meeting_attending_location" reference="u_foreign_locations" type="reference"/>
         <element label="Meeting/Visit/Call Request" max_length="32" name="u_meeting_visit_call_request" read_only="true" reference="x_lin_ecf_meeting_visit_call_request" type="reference"/>
         <element label="Pre Screen Date" max_length="255" name="u_pre_screen_date" type="string"/>
-        <element choice="1" label="U.S. Citizen or Greencard holder?&#9;" max_length="40" name="u_s_citizen_or_greencard_holder" type="choice">
+        <element choice="1" label="U.S. Citizen or Greencard holder?" max_length="40" name="u_s_citizen_or_greencard_holder" type="choice">
             <choice>
                 <element label="No" value="no"/>
                 <element label="Yes" value="tes"/>

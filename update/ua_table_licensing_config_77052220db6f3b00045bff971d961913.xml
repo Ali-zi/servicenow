@@ -5,24 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_lin_ecf_ligado_participants</name>
+        <name>x_lin_ecf_meeting_visit_call_request</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>ali@ligado.com</sys_created_by>
-        <sys_created_on>2019-08-23 18:06:17</sys_created_on>
+        <sys_created_on>2019-08-23 15:18:56</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c722f808db2bf700045bff971d961969</sys_id>
+        <sys_id>77052220db6f3b00045bff971d961913</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_lin_ecf_ligado_participants</sys_name>
+        <sys_name>x_lin_ecf_meeting_visit_call_request</sys_name>
         <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
-        <sys_update_name>ua_table_licensing_config_c722f808db2bf700045bff971d961969</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_77052220db6f3b00045bff971d961913</sys_update_name>
         <sys_updated_by>ali@ligado.com</sys_updated_by>
-        <sys_updated_on>2019-08-23 18:06:17</sys_updated_on>
+        <sys_updated_on>2019-08-23 15:18:56</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

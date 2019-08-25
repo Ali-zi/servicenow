@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>sysverb_insert</action_name>
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>(current.u_state ==20 || current.u_state == 40 || current.u_state == 70)</condition>
+        <condition>new checkMeetingParticipants().checkMeetingParticipants() &amp;&amp; (current.u_state ==20 || current.u_state == 40 || current.u_state == 70)</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -20,42 +20,34 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Add an External Participant</name>
+        <name>Submit for Approval</name>
         <onclick/>
-        <order>150</order>
-        <script><![CDATA[var ep = new GlideRecord('x_lin_ecf_external_participants');
-ep.u_meeting_visit_call_request = current.sys_id;
+        <order>300</order>
+        <script><![CDATA[current.u_state = 60;
 
-var sysId = ep.insert();
-var mySysId = current.update();
-
-action.setRedirectURL(ep);
-action.setReturnURL(current);
-
-
-
-						 ]]></script>
-        <show_insert>true</show_insert>
+current.update();
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>ali@ligado.com</sys_created_by>
-        <sys_created_on>2019-08-23 19:32:32</sys_created_on>
+        <sys_created_on>2019-08-25 16:45:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c7958184db6bf700045bff971d96190a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Add an External Participant</sys_name>
+        <sys_id>a4d2fa2cdb6f3b00045bff971d961907</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Submit for Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
-        <sys_update_name>sys_ui_action_c7958184db6bf700045bff971d96190a</sys_update_name>
+        <sys_update_name>sys_ui_action_a4d2fa2cdb6f3b00045bff971d961907</sys_update_name>
         <sys_updated_by>ali@ligado.com</sys_updated_by>
-        <sys_updated_on>2019-08-25 17:32:16</sys_updated_on>
+        <sys_updated_on>2019-08-25 18:28:50</sys_updated_on>
         <table>x_lin_ecf_meeting_visit_call_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
