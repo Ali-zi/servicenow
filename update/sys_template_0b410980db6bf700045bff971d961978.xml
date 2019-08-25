@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE46</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ali@ligado.com</sys_created_by>
+        <sys_created_on>2019-08-23 19:12:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0b410980db6bf700045bff971d961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE46</sys_name>
+        <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
+        <sys_update_name>sys_template_0b410980db6bf700045bff971d961978</sys_update_name>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-08-23 19:12:33</sys_updated_on>
+        <table>x_lin_ecf_meeting_visit_call_request</table>
+        <template>u_date_requested=2019-08-23 15:12:08^u_location_of_host_meeting=reston^u_meeting_date_time_start=2019-08-23 15:12:12^u_meeting_title=ss^u_meeting_type=Conference Call^u_nature_of_discussion=Business/Non-Technical^u_nature_of_material=Export Controlled^u_purpose_of_meeting=ss^u_requested_for=0ee1f839db30d7401418f9961d9619e9^u_state=20^u_submitter.email=ali@ligado.com^u_submitter=6349b24fdbba4f001418f9961d961904^EQ</template>
+        <user display_value="Ali Mowazi">6349b24fdbba4f001418f9961d961904</user>
+        <view/>
+    </sys_template>
+</record_update>

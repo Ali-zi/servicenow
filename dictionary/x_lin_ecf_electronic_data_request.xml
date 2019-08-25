@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_lin_ecf_table" label="Electronic Data Request" max_length="40" name="x_lin_ecf_electronic_data_request" type="collection"/>
+</database>

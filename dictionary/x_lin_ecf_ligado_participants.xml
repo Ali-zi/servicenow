@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ligado Participants" max_length="40" name="x_lin_ecf_ligado_participants" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Attending Location" mandatory="true" max_length="32" name="u_attending_location" reference="u_foreign_locations" type="reference"/>
+        <element label="Meeting/Visit/Call Request" max_length="32" name="u_meeting_visit_call_request" read_only="true" reference="x_lin_ecf_meeting_visit_call_request" type="reference"/>
+        <element label="Name" mandatory="true" max_length="32" name="u_name" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_meeting_visit_call_request"/>
+        </index>
+        <index name="index3">
+            <element name="u_attending_location"/>
+        </index>
+    </element>
+</database>

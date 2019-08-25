@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_lin_ecf_table" label="Meeting/Visit/Call Request" max_length="40" name="x_lin_ecf_meeting_visit_call_request" type="collection">
+        <element label="Conference Room" max_length="32" name="u_conference_room" reference="u_conference_rooms" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="Meeting/Visit/Call Request for Technical Discussions involving Foreign NationalsOne of the more important reasons for this electronic form is to elicit information necessary to make an export determination on meeting discussions prior to a scheduled technical meeting with a Foreign National, regardless of whether such discussions are via face to face or video/audio meeting formats.  Please provide a detailed description of the purpose of the meeting and provide participant information for pre-screening and authorization to release technical information regarding for example (i) space launch items, space launch data, space launch services or other items on the US Munitions List (ITAR controlled data) or (ii) technology necessary for the development, production or use of items that may be controlled under Export Administration Regulations (EAR).Meeting Request for Business/Non-Technical DiscussionsPlease provide a detailed description of the purpose for the meeting and provide participant information for pre-screening and authorization to access the Ligado Networks Facilities." label="Description" max_length="40000" name="u_description" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Meeting/Visit/Call Request for Technical Discussions involving Foreign NationalsOne of the more important reasons for this electronic form is to elicit information necessary to make an export determination on meeting discussions prior to a scheduled technical meeting with a Foreign National, regardless of whether such discussions are via face to face or video/audio meeting formats.  Please provide a detailed description of the purpose of the meeting and provide participant information for pre-screening and authorization to release technical information regarding for example (i) space launch items, space launch data, space launch services or other items on the US Munitions List (ITAR controlled data) or (ii) technology necessary for the development, production or use of items that may be controlled under Export Administration Regulations (EAR).Meeting Request for Business/Non-Technical DiscussionsPlease provide a detailed description of the purpose for the meeting and provide participant information for pre-screening and authorization to access the Ligado Networks Facilities." label="√" max_length="40000" name="u_description_definition" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Meeting/Visit/Call Request for Technical Discussions involving Foreign NationalsOne of the more important reasons for this electronic form is to elicit information necessary to make an export determination on meeting discussions prior to a scheduled technical meeting with a Foreign National, regardless of whether such discussions are via face to face or video/audio meeting formats.  Please provide a detailed description of the purpose of the meeting and provide participant information for pre-screening and authorization to release technical information regarding for example (i) space launch items, space launch data, space launch services or other items on the US Munitions List (ITAR controlled data) or (ii) technology necessary for the development, production or use of items that may be controlled under Export Administration Regulations (EAR).Meeting Request for Business/Non-Technical DiscussionsPlease provide a detailed description of the purpose for the meeting and provide participant information for pre-screening and authorization to access the Ligado Networks Facilities." label="Description title" max_length="40000" name="u_description_title" read_only="true" type="string"/>
+        <element choice="1" label="Location of Host Meeting" mandatory="true" max_length="40" name="u_location_of_host_meeting" type="choice">
+            <choice>
+                <element label="Reston" sequence="10" value="reston"/>
+                <element label="Ottawa" sequence="20" value="ottawa"/>
+                <element label="Other" sequence="30" value="other"/>
+            </choice>
+        </element>
+        <element label="Meeting Date/Time End" max_length="40" name="u_meeting_date_time_end" type="glide_date_time"/>
+        <element label="Meeting Date/Time Start" mandatory="true" max_length="40" name="u_meeting_date_time_start" type="glide_date_time"/>
+        <element label="Meeting Title" mandatory="true" max_length="500" name="u_meeting_title" type="string"/>
+        <element choice="1" label="Meeting Type?" mandatory="true" max_length="40" name="u_meeting_type" type="choice">
+            <choice>
+                <element label="Conference Call" value="Conference Call"/>
+                <element label="Conference Call/On-site" value="Conference Call/On-site"/>
+                <element label="On-Site" value="On-Site"/>
+            </choice>
+        </element>
+        <element label="Meeting/Visit/Call Request" max_length="65536" name="u_meeting_visit_call_request_title" read_only="true" type="html"/>
+        <element choice="1" label="Nature of Discussion?" mandatory="true" max_length="40" name="u_nature_of_discussion" type="choice">
+            <choice>
+                <element label="Business/Non-Technical" value="Business/Non-Technical"/>
+                <element label="Technical" value="Technical"/>
+            </choice>
+        </element>
+        <element choice="1" label="Nature of Material?" mandatory="true" max_length="40" name="u_nature_of_material" type="choice">
+            <choice>
+                <element label="Export Controlled" value="Export Controlled"/>
+                <element label="Not Export Controlled" value="Not Export Controlled"/>
+            </choice>
+        </element>
+        <element label="Other Location" max_length="50" name="u_other_location" type="string"/>
+        <element label="Purpose of Meeting" mandatory="true" max_length="4000" name="u_purpose_of_meeting" type="string"/>
+        <element label="Special Requirements" max_length="300" name="u_special_requirements" type="string"/>
+        <index name="index">
+            <element name="u_conference_room"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_s_citizen_or_greencard_holder" table="x_lin_ecf_external_participants" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_s_citizen_or_greencard_holder</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_lin_ecf_external_participants</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 19:28:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98f44944db6bf700045bff971d96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:28:34</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_s_citizen_or_greencard_holder</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_lin_ecf_external_participants</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 19:28:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea050144db6bf700045bff971d9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:28:42</sys_updated_on>
+            <value>tes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_s_citizen_or_greencard_holder</element>
+            <name>x_lin_ecf_external_participants</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 19:28:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>20054944db6bf700045bff971d961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_s_citizen_or_greencard_holder</sys_name>
+            <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
+            <sys_update_name>sys_choice_x_lin_ecf_external_participants_u_s_citizen_or_greencard_holder</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 19:28:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ecf Table" max_length="40" name="x_lin_ecf_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Date Requested" max_length="100" name="u_date_requested" type="glide_date_time"/>
+        <element label="Requested For" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element choice="3" default="20" label="State" max_length="40" name="u_state" type="integer">
+            <choice>
+                <element label="New" sequence="20" value="20"/>
+                <element label="Draft" sequence="40" value="40"/>
+                <element label="Pending Approval" sequence="60" value="60"/>
+                <element label="Pending Additional Info" sequence="70" value="70"/>
+                <element label="Approved" sequence="80" value="80"/>
+                <element label="Cancelled" sequence="90" value="90"/>
+                <element label="Rejected" sequence="100" value="100"/>
+            </choice>
+        </element>
+        <element label="Submitter" max_length="32" name="u_submitter" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_submitter"/>
+        </index>
+        <index name="index2">
+            <element name="u_requested_for"/>
+        </index>
+    </element>
+</database>

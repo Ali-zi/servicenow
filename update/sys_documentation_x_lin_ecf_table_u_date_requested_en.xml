@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_date_requested" label="Date Requested" language="en" table="x_lin_ecf_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_date_requested</element>
+            <help/>
+            <hint/>
+            <label>Date Requested</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <plural>Date Requested</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 13:47:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>84e6ff37db97f700045bff971d9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Date Requested</sys_name>
+            <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
+            <sys_update_name>sys_documentation_x_lin_ecf_table_u_date_requested_en</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 13:47:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="External Participants" max_length="40" name="x_lin_ecf_external_participants" type="collection">
+        <element label="E-mail" mandatory="true" max_length="255" name="e_mail" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="255" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Company" mandatory="true" max_length="250" name="u_company" type="string"/>
+        <element label="Company Address" mandatory="true" max_length="255" name="u_company_address" type="string"/>
+        <element label="Expire Date (if known)" max_length="40" name="u_expire_date" type="glide_date"/>
+        <element choice="1" label="Expire Period" max_length="50" name="u_expire_period" type="choice">
+            <choice>
+                <element label="90 days" sequence="10" value="90 days"/>
+                <element label="2 years" sequence="20" value="2 years"/>
+            </choice>
+        </element>
+        <element label="First Name" mandatory="true" max_length="255" name="u_first_name" type="string"/>
+        <element label="Head Office Address (if different than above)" max_length="255" name="u_head_office_address" type="string"/>
+        <element label="Meeting Attending Location" mandatory="true" max_length="32" name="u_meeting_attending_location" reference="u_foreign_locations" type="reference"/>
+        <element label="Meeting/Visit/Call Request" max_length="32" name="u_meeting_visit_call_request" read_only="true" reference="x_lin_ecf_meeting_visit_call_request" type="reference"/>
+        <element label="Pre Screen Date" max_length="255" name="u_pre_screen_date" type="string"/>
+        <element choice="1" label="U.S. Citizen or Greencard holder?&#9;" max_length="40" name="u_s_citizen_or_greencard_holder" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="tes"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_meeting_attending_location"/>
+        </index>
+        <index name="index2">
+            <element name="u_meeting_visit_call_request"/>
+        </index>
+    </element>
+</database>

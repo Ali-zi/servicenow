@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_meeting_type" table="x_lin_ecf_meeting_visit_call_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_meeting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conference Call</label>
+            <language>en</language>
+            <name>x_lin_ecf_meeting_visit_call_request</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 17:25:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b82480db2bf700045bff971d9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 17:25:00</sys_updated_on>
+            <value>Conference Call</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_meeting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conference Call/On-site</label>
+            <language>en</language>
+            <name>x_lin_ecf_meeting_visit_call_request</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 17:25:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4c82440db2bf700045bff971d9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 17:25:10</sys_updated_on>
+            <value>Conference Call/On-site</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_meeting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Site</label>
+            <language>en</language>
+            <name>x_lin_ecf_meeting_visit_call_request</name>
+            <sequence/>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 17:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b82c40db2bf700045bff971d961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 17:25:05</sys_updated_on>
+            <value>On-Site</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_meeting_type</element>
+            <name>x_lin_ecf_meeting_visit_call_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 17:25:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e6b8e080db2bf700045bff971d961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_meeting_type</sys_name>
+            <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
+            <sys_update_name>sys_choice_x_lin_ecf_meeting_visit_call_request_u_meeting_type</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 17:25:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

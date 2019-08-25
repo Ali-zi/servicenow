@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_state" table="x_lin_ecf_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>20</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:43:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a38a3c0cdb2bf700045bff971d9619ea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:45:13</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>40</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>729ab44cdb2bf700045bff971d9619ff</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:45:07</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Approval</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>60</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:44:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50dab84cdb2bf700045bff971d961908</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:45:03</sys_updated_on>
+            <value>60</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Additional Info</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>70</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:44:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88fa744cdb2bf700045bff971d9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:44:56</sys_updated_on>
+            <value>70</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>80</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ababb88cdb2bf700045bff971d961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:48:00</sys_updated_on>
+            <value>80</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>90</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9cbf08cdb2bf700045bff971d961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:48:29</sys_updated_on>
+            <value>90</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_lin_ecf_table</name>
+            <sequence>100</sequence>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:48:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecebb48cdb2bf700045bff971d9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:48:54</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <name>x_lin_ecf_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ali@ligado.com</sys_created_by>
+            <sys_created_on>2019-08-23 18:43:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ba9a744cdb2bf700045bff971d9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_state</sys_name>
+            <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
+            <sys_update_name>sys_choice_x_lin_ecf_table_u_state</sys_update_name>
+            <sys_updated_by>ali@ligado.com</sys_updated_by>
+            <sys_updated_on>2019-08-23 18:43:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
