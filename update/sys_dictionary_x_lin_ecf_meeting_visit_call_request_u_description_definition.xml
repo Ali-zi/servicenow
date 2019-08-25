@@ -7,10 +7,10 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>√</column_label>
+        <column_label> </column_label>
         <comments/>
         <create_roles/>
         <default_value>Meeting/Visit/Call Request for Technical Discussions involving Foreign NationalsOne of the more important reasons for this electronic form is to elicit information necessary to make an export determination on meeting discussions prior to a scheduled technical meeting with a Foreign National, regardless of whether such discussions are via face to face or video/audio meeting formats.  Please provide a detailed description of the purpose of the meeting and provide participant information for pre-screening and authorization to release technical information regarding for example (i) space launch items, space launch data, space launch services or other items on the US Munitions List (ITAR controlled data) or (ii) technology necessary for the development, production or use of items that may be controlled under Export Administration Regulations (EAR).Meeting Request for Business/Non-Technical DiscussionsPlease provide a detailed description of the purpose for the meeting and provide participant information for pre-screening and authorization to access the Ligado Networks Facilities.</default_value>
@@ -51,15 +51,15 @@
         <sys_created_on>2019-08-23 17:36:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3f05eeecdb2f3b00045bff971d9619f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>√</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name> </sys_name>
         <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
         <sys_update_name>sys_dictionary_x_lin_ecf_meeting_visit_call_request_u_description_definition</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-08-25 15:45:16</sys_updated_on>
+        <sys_updated_by>ali@ligado.com</sys_updated_by>
+        <sys_updated_on>2019-08-25 21:39:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

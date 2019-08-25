@@ -7,30 +7,32 @@
         <client_callable>false</client_callable>
         <description/>
         <name>checkMeetingParticipants</name>
-        <script><![CDATA[
-var checkMeetingParticipants = Class.create();
+        <script><![CDATA[var checkMeetingParticipants = Class.create();
 checkMeetingParticipants.prototype = {
-   checkMeetingParticipants: function() {
-	   var grExternal = new GlideRecord("x_lin_ecf_external_participants");
-	   grExternal.addQuery("x_lin_ecf_meeting_visit_call_request", current.sys_id);
-	   grExternal.query();
-	   
-	   var countEx = grExternal.getRowCount();
-	   
-	   if(countEx == 0)
-		   return false;
-	   else
-		   return false;
-   },
+	
+	initialize: function(){},
+	
+	checkMeetingParticipants: function() {
+		var grExternal = new GlideRecord("x_lin_ecf_external_participants");
+		grExternal.addQuery("u_meeting_visit_call_request", current.sys_id);
+		grExternal.query();
 
-    type: 'checkMeetingParticipants'
+		var countEx = grExternal.getRowCount();
+
+		if(countEx == 0)
+			return false;
+		else
+			return true;
+	},
+
+		type: 'checkMeetingParticipants'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>ali@ligado.com</sys_created_by>
         <sys_created_on>2019-08-25 18:04:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c01183a4dbaf3b00045bff971d961998</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>checkMeetingParticipants</sys_name>
         <sys_package display_value="ECF" source="x_lin_ecf">eea53bf3db97f700045bff971d96198f</sys_package>
         <sys_policy/>
@@ -38,6 +40,6 @@ checkMeetingParticipants.prototype = {
         <sys_scope display_value="ECF">eea53bf3db97f700045bff971d96198f</sys_scope>
         <sys_update_name>sys_script_include_c01183a4dbaf3b00045bff971d961998</sys_update_name>
         <sys_updated_by>ali@ligado.com</sys_updated_by>
-        <sys_updated_on>2019-08-25 19:10:31</sys_updated_on>
+        <sys_updated_on>2019-08-25 21:35:35</sys_updated_on>
     </sys_script_include>
 </record_update>
